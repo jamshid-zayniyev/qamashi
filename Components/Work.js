@@ -1,7 +1,7 @@
 import styles from '../styles/Work.module.css'
 import WorkProject from './WorkProject'
 import BlogCard from './BlogCard';
-import { news } from '../Constants/news'
+import { projects } from '../Constants/projects'
 import { custom_blogs, medium_blogs, dev_to } from '../Constants/blogs'
 import { useState, useEffect } from 'react';
 import { headings, userinfo } from '../Constants/userinfo'
@@ -38,7 +38,7 @@ const Work = ({ currentTheme }) => {
             <div className={styles.workHeading}>{headings.workMainPage}</div>
             <div className={styles.workmain} style={{ color: currentTheme.subtext }}>
                 {
-                    news.map((news, key) => {
+                    projects.map((news, key) => {
                         return (
                             <div key={key} data-aos='fade-up'>
                                 <WorkProject currentTheme={currentTheme} project={news} id={key} />

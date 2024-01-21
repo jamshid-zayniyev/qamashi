@@ -27,7 +27,7 @@ const WorkProject = ({ currentTheme, project, id }) => {
       isClosable: true,
     })
   }
-
+console.log(project);
   const ahead = () => {
     if (index === project.photo.length-1) {
       setIndex(0)
@@ -70,7 +70,7 @@ const WorkProject = ({ currentTheme, project, id }) => {
         </div>
         <div className={styles.imageandsocials}>
           <div className={styles.card} {...handlers} style={{ borderColor: currentTheme.footerColor, position: 'relative' }}>
-            <Image src={project.photo[index]} alt='thumbnail image' />
+            <Image src={project.photo[0]} alt='thumbnail image' />
             <button onClick={back} style={{position: 'absolute', top: '50%', left: '10px', color: 'white', fontSize: '20px'}}>&lt;</button>
             <button onClick={ahead} style={{position: 'absolute', top: '50%', right: '10px', color: 'white', fontSize: '20px'}}>&gt;</button>
           </div>

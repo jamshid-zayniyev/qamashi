@@ -21,7 +21,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo: [Person_1], //list of names of images from above imports.
+        photo: [Person_1,Person_1,Person_1], //list of names of images from above imports.
     },
     {
         id:2,
@@ -31,7 +31,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_2], //list of names of images from above imports.
+        photo:[Person_2,Person_2,Person_2], //list of names of images from above imports.
     },
     {
         id:3,
@@ -41,7 +41,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_3], //list of names of images from above imports.
+        photo:[Person_3,Person_3,Person_3], //list of names of images from above imports.
     },
     {
         id:4,
@@ -51,7 +51,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_4], //list of names of images from above imports.
+        photo:[Person_4,Person_4,Person_4], //list of names of images from above imports.
     },
     {
         id:5,
@@ -61,7 +61,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_5], //list of names of images from above imports.
+        photo:[Person_5,Person_5,Person_5], //list of names of images from above imports.
     },
     {
         id:6,
@@ -71,7 +71,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_6], //list of names of images from above imports.
+        photo:[Person_6,Person_6,Person_6], //list of names of images from above imports.
     },
     {
         id:7,
@@ -81,7 +81,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_7], //list of names of images from above imports.
+        photo:[Person_7,Person_7,Person_7], //list of names of images from above imports.
     },
     {
         id:8,
@@ -91,7 +91,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_8], //list of names of images from above imports.
+        photo:[Person_8,Person_8,Person_8], //list of names of images from above imports.
     },
     {
         id:9,
@@ -101,7 +101,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_9], //list of names of images from above imports.
+        photo:[Person_9,Person_9,Person_9], //list of names of images from above imports.
     },
     {
         id:10,
@@ -111,7 +111,7 @@ export  const projects = [
         projectLink: '', //deployed project link
         telegramLink:'',
         tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo:[Person_10], //list of names of images from above imports.
+        photo:[Person_10,Person_10,Person_10], //list of names of images from above imports.
     },
     
     
