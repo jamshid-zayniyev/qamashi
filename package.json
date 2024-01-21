@@ -5,10 +5,10 @@
   "author": "Asavari Ambavane",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+      "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+      "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+      "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
+      "lint": "next lint"
   },
   "repository": {
     "type": "git",
